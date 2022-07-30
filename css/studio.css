@@ -1,0 +1,230 @@
+/* =================HERO================ */
+
+.hero {
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4) , rgba(47, 48, 58, 0.4)) , url(../images/herobackground.jpg) ;
+    background-size: cover;
+    text-align: center;
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+
+.title {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: calc(60 / 44);
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--secondary-color);
+    margin-bottom: 30px;
+}
+
+.modal-btn {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: calc(30 / 16);
+    color: #FFF;
+    background: #2196F3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    border: none;
+    padding: 10px 32px;
+}
+
+.modal-btn:hover,
+.modal-btn:focus { background-color: #188CE8; }
+
+/* =================HERO================ */
+/* =================OUR ADVANTAGES================ */
+
+.advantages-list {
+    display: flex;
+}
+
+.advantages-item {
+    width: 270px;
+}
+
+.advantages-item:not(:last-child) {
+    margin-right: 30px;
+}
+
+.advantages-icon {
+    width: 270px;
+    height: 120px;
+    background-color: #F5F4FA;
+    margin-bottom: 30px;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title-desc-advantages {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: calc(16 / 14);
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.desc-advantages {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: calc(24 / 14);
+    letter-spacing: 0.03em;
+    color: var(--primary-color);
+}
+
+/* =================OUR ADVANTAGES================ */
+/* =================PHOTOS OF "OUR ADVANTAGES================ */
+
+.photo-advantages {
+    padding-bottom: 94px;
+}
+
+.title-photo-advantages {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: calc(42 / 36);
+    text-align: center;
+    letter-spacing: 0.03em;
+    margin-bottom: 50px;
+}
+
+.list-advantages-photo {
+    display: flex;
+}
+
+.advantages-photo-item:not(:last-child) {
+    margin-right: 30px;
+}
+
+/* =================PHOTOS OF "OUR ADVANTAGES================ */
+/* =================OUR TEAM================ */
+.our-team {
+    background: #F5F4FA;
+}
+
+.title-photo-team-minidesc {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: calc(42 / 36);
+    text-align: center;
+    letter-spacing: 0.03em;
+    margin-bottom: 50px;
+}
+
+/* =================PHOTOS AND MINI-DESCRIPTION OF "OUR TEAM"================ */
+
+.team-list {
+    display: flex;
+}
+
+.team-item {
+    background: #FFFFFF;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+}
+
+.team-item:not(:last-child) {
+    margin-right: 30px;
+}
+
+.teammate-name-desc {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.teammate-name {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: calc(19 / 16);
+    text-align: center;
+    letter-spacing: 0.03em;
+    margin-bottom: 12px;
+}
+
+.mini-desc {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: calc(19 / 16);
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--primary-color);
+    margin-bottom: 16px;
+}
+
+.social-list {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.social-list-link {
+    width: 44px;
+    height: 44px;
+    background-color: #FFF;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.social-list-icon {
+    fill: var(--icon-color);
+}
+
+.social-list-link:hover,
+.social-list-link:focus {
+    background-color: var(--hover-color);
+}
+
+.social-list-link:hover svg,
+.social-list-link:focus svg {
+    fill: #fff;
+}
+
+/* =================PHOTOS AND MINI-DESCRIPTION OF "OUR TEAM"================ */
+/* =================OUR TEAM================ */
+/* =================regular-customers================ */
+
+.regular-customers-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: calc(42 / 36);
+    text-align: center;
+    letter-spacing: 0.03em;
+    margin-bottom: 50px;
+}
+
+.regular-customers-list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.regular-customers-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 170px;
+    height: 92px;
+    border: 1px solid #AFB1B8;
+    border-radius: 4px;
+}
+
+.regular-customers-icon-item {
+    fill: var(--icon-color);
+}
+
+.regular-customers-link:hover,
+.regular-customers-link:focus {
+    border: 1px solid var(--hover-color);
+}
+
+.regular-customers-link:hover svg,
+.regular-customers-link:focus svg {
+    fill: var(--hover-color);
+}
+
+/* =================reglar-customers================ */
